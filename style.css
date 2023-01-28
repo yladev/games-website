@@ -37,7 +37,7 @@ body{
 }
 
 .container{
-    max-width: 1068px;
+    max-width: 1368px;
     margin: auto;
     width: 100%;
 }
@@ -156,6 +156,11 @@ header{
     align-items: center;
     justify-content: space-between;
     transition: 0.5s;
+    clip-path: circle(0% at 100% 0%);
+}
+
+.menu.active{
+    clip-path: circle(144% at 100% 0%);
 }
 
 .menu img{
@@ -166,15 +171,20 @@ header{
     display: grid;
     row-gap: 1rem;
     text-align: right;
-    padding-right: 2rem;
+    margin-right: 5rem;
 }
 
 .navbar a{
     font-size: 1.6rem;
     color: var(--text-color);
+    font-weight: 500;
+    transition: 0.2s;
 }
 
-
+.navbar a:hover{
+    border-bottom: 4px solid var(--main-color);
+    font-size: 1.8rem;
+}
 
 
 
