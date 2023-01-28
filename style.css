@@ -63,6 +63,7 @@ header{
 .logo{
     font-style: 1.4rem;
     font-weight: 600;
+    font-size: 32px;
     color: var(--text-color);
     text-transform: uppercase;
     margin: 0 auto 0 0;
