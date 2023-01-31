@@ -440,6 +440,42 @@ header{
     text-align: justify;
 }
 
+/* ScreenShorts */
+.screenshorts h2{
+    display: inline-flex;
+    font-size: 1.4rem;
+    font-weight: 500;
+    border-bottom: 4px solid var(--main-color);
+    margin: 1.6rem 0;
+}
+
+.screenshorts-content{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, auto));
+    gap: 10px;
+    justify-content: center;
+    max-width: 800px;
+    margin: auto;
+    width: 100%;
+}
+
+.screenshorts-content img{
+    width: 100%;
+    height: 440px;
+    object-fit: cover;
+}
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
