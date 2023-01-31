@@ -21,16 +21,15 @@ var swiper = new Swiper(".trending-content", {
   slidesPerView: 1,
   spaceBetween: 10,
   grabCursor: true,
-  loop: true,
-
-  autoplay: {
-    delay: 1500,
-    disableOnInteraction: true
-  },
-
+  
   pagination: {
     el: ".swiper-pagination",
     clickable: true,
+  },
+
+  autoplay: {
+    delay: 200,
+    disableOnInteraction: false,
   },
 
   breakpoints: {
