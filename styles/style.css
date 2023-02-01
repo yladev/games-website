@@ -502,11 +502,26 @@ header{
     transition: 0.3s all linear;
 }
 
+/* Display Block For Deafault Scroll Bar */
+html::-webkit-scrollbar{
+    display: none;
+}
 
+/* Custom Scroll Bar */
+.progress{
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 4px;
+    width: 100%;
+    z-index: 300;
+}
 
-
-
-
+.progress-bar{
+    height: 4px;
+    background: var(--main-color);
+    width: 0%;
+}
 
 
 
